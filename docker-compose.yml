@@ -120,8 +120,8 @@ services:
 #      - "9000:9000"  # Native interface used by the LOG_SQL_DSN example above
 
 volumes:
-  pg_data:
-#  mysql_data:
+  # pg_data:
+ mysql_data:
 #  clickhouse_data:
 
 networks:
