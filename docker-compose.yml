@@ -54,8 +54,8 @@ services:
 
     depends_on:
       - redis
-      - postgres
-#      - mysql  # Uncomment if using MySQL
+      # - postgres
+      - mysql  # Uncomment if using MySQL
 #      - clickhouse  # Uncomment if using ClickHouse for LOG_SQL_DSN
     networks:
       - new-api-network
